@@ -1,0 +1,65 @@
+.navbar {
+  background-color: #c57684; /* light pink */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d63384;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #d63384;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #b02a6d;
+}
+
+.cart-badge {
+  background-color: #fff;
+  color: #d63384;
+  font-weight: bold;
+  padding: 0.2rem 0.5rem;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.logo {
+  width: 150px;
+  height: auto;
+}
+/* Navbar.css */
+.navbar-brand svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.navbar-brand span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d63384;
+}
+
+.navbar-nav .nav-link svg {
+  vertical-align: middle;
+  margin-right: 8px; /* Optional: add some space between the icon and the text */
+}
+

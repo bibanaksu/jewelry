@@ -1,0 +1,90 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #fff0f5; /* Light pink background */
+  color: #333;
+}
+
+h2, h4 {
+  font-family: 'Pacifico', cursive;
+  color: #d63384; /* cute pink */
+}
+
+.btn-primary {
+  background-color: #ff69b4;
+  border-color: #ff69b4;
+}
+
+.btn-success {
+  background-color: #ffa07a;
+  border-color: #ffa07a;
+}
+
+.border.bg-light {
+  background-color: #fff5f8 !important;
+  border-color: #f8c2d8 !important;
+}
+
+.form-select, .form-control {
+  border-radius: 10px;
+  border-color: #ffc0cb;
+}
+
+.item-card {
+  background-color: #fff;
+  border: 2px solid #ffddee;
+  border-radius: 16px;
+  padding: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.item-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(255, 192, 203, 0.4);
+}
+.product-image {
+  max-width: 100%;
+  width: 350px;
+  border: 4px solid #ffb6c1; /* pink border */
+  border-radius: 12px;
+  padding: 8px;
+  background-color: #fff0f5; /* light pink background */
+  box-shadow: 0 4px 12px rgba(255, 182, 193, 0.5);
+  display: block;
+  margin: 0 auto;
+}
+/* Make headings normal font */
+.product-name,
+.review-title {
+font-family: Arial, sans-serif;
+font-weight: bold;
+font-size: 24px;
+color: #333;
+margin-top: 10px;
+}
+
+/* Contact Page Styles */
+.contact-form {
+  background-color: #fff9fb;
+  border-radius: 15px;
+  padding: 2rem;
+}
+
+.contact-form .form-control {
+  border-color: #ffb6c1;
+}
+
+.contact-form .form-control:focus {
+  border-color: #d63384;
+  box-shadow: 0 0 0 0.25rem rgba(214, 51, 132, 0.25);
+}
+
+.contact-form button {
+  background-color: #d63384;
+  border: none;
+  transition: all 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #b52b6f;
+  transform: translateY(-2px);
+}
